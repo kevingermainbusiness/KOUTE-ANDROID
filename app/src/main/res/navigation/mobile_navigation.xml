@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_sermons">
+
+    <fragment
+        android:id="@+id/navigation_sermons"
+        android:name="ht.koute.android.fragments.SermonsFragment"
+        android:label="@string/title_sermons"
+        tools:layout="@layout/fragment_sermons" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="ht.koute.android.fragments.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="ht.koute.android.fragments.LibraryFragment"
+        android:label="@string/title_library"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/navigation_shows"
+        android:name="ht.koute.android.fragments.ShowsFragment"
+        android:label="@string/title_shows"
+        tools:layout="@layout/fragment_shows"/>
+</navigation>

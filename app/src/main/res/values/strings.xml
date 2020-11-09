@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KOUTE</string>
+    <string name="title_songs">Songs</string>
+    <string name="title_sermons">Prêches</string>
+    <string name="title_search">Recherche</string>
+    <string name="title_library">Bibliothèque</string>
+    <string name="title_shows">Émissions</string>
+
+
+    <string name="faith_category">Foi</string>
+    <string name="obedience_category">Obéissance</string>
+    <string name="love_category">Amour</string>
+    <string name="sharing_category">Partage</string>
+    <string name="compassion_category">Compassion</string>
+    <string name="devotion_category">Dévotion</string>
+    <string name="what_are_you_in_the_mood_for">De quoi êtes-vous d\'humeur?</string>
+    <string name="new_shows">Nouvelles émissions</string>
+    <string name="recommended_for_you">Recommandé pour vous</string>
+    <string name="more_on_faith">En savoir plus sur la foi</string>
+</resources>

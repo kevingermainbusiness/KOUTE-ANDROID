@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134250042307",
+    "firebase_url": "https://koute-6acdf.firebaseio.com",
+    "project_id": "koute-6acdf",
+    "storage_bucket": "koute-6acdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134250042307:android:3b11bb8aa55ba3951ca376",
+        "android_client_info": {
+          "package_name": "ht.koute.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134250042307-j3rlltgqh58pek1db95qohc22usesc8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZciXK1XPxRuUQN9RYQPpSylpcOdSInm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134250042307-j3rlltgqh58pek1db95qohc22usesc8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
