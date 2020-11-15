@@ -1,16 +1,10 @@
 package ht.koute.android.adapters
 
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
-import androidx.recyclerview.widget.RecyclerView
 import ht.koute.android.R
-import ht.koute.android.utils.SuggestionsClickListener
-import ht.koute.android.data.Suggestions
-import kotlinx.android.synthetic.main.suggestions_row.view.*
+import kotlinx.android.synthetic.main.suggestions1_row.view.*
 
-class SuggestionsAdapter : BaseSuggestionsAdapter(R.layout.suggestions_row) {
+class SuggestionsAdapter : BaseSuggestionsAdapter(R.layout.suggestions1_row) {
 
     override val differ = AsyncListDiffer(this, diffCallBack)
 

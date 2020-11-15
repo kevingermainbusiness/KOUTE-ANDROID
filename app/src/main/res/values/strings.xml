@@ -17,4 +17,20 @@
     <string name="new_shows">Nouvelles émissions</string>
     <string name="recommended_for_you">Recommandé pour vous</string>
     <string name="more_on_faith">En savoir plus sur la foi</string>
+    <string name="now_playing">Lecture</string>
+    <string name="share">Partager</string>
+    <string name="available_reference">Reference disponible</string>
+    <string name="astuce_titre">Astuce: Tapper sur une reference pour voir le passage</string>
+
+    <string name="reference_exemple_1">
+        Il restaure mon ame, il me conduit dans les sentiers de la justice a cause de son Nom.
+    </string>
+
+    <string name="reference_exemple_2">
+        1 Le serpent était le plus rusé de tous les animaux des champs, que l\'Éternel Dieu avait faits.
+        Il dit à la femme: Dieu a-t-il réellement dit: Vous ne mangerez pas de tous les arbres du jardin?\n
+        2 La femme répondit au serpent: Nous mangeons du fruit des arbres du jardin.\n
+        3 Mais quant au fruit de l\'arbre qui est au milieu du jardin, Dieu a dit:
+        Vous n\'en mangerez point et vous n\'y toucherez point, de peur que vous ne mouriez.
+    </string>
 </resources>

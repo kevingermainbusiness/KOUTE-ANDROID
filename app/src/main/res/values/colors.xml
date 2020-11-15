@@ -2,7 +2,7 @@
 <resources>
     <color name="color_200">#69a0ff</color>
     <color name="color_500">#1a72e8</color>
-    <color name="colorAccent">#fff</color>
+    <color name="colorAccent">#1a72e8</color>
     <color name="color_toolbar_background">#ffff</color>
     <color name="color_toolbar_text">#8A000000</color>
     <color name="color_700">#0048b5</color>
@@ -10,6 +10,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">@android:color/white</color>
-    <color name="colorTabUnselected">#80FFFFFF</color>
-    <color name="colorTabSelected">#FFFFFF</color>
+<!--    <color name="colorTabUnselected">#80FFFFFF</color>-->
+    <color name="colorLightGray">#ddd</color>
 </resources>

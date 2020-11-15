@@ -3,46 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/ivCover"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_margin="16dp"
-        android:contentDescription="Cover image"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/movie_poster_prot_01" />
-
-    <TextView
-        android:id="@+id/tvAuthor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="Choses a Savoir"
-        android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@id/ivCover"
-        app:layout_constraintTop_toTopOf="@id/ivCover" />
-
-    <TextView
-        android:id="@+id/tvDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="03/11/2020"
-        app:layout_constraintStart_toStartOf="@id/tvAuthor"
-        app:layout_constraintTop_toBottomOf="@id/tvAuthor" />
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/holder_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvDate">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/tvTitle"
@@ -50,23 +21,23 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
             android:text="Importance de la mort de Jesus Christ"
-            android:textSize="24sp"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/tvDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:layout_marginStart="0dp" />
+            android:layout_marginStart="0dp"
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/holder_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="@id/holder_1"
@@ -120,6 +91,34 @@
             android:layout_marginEnd="0dp"
             android:contentDescription="Download button"
             android:src="@drawable/ic_download_24" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCover"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="0dp"
+            android:contentDescription="Cover image"
+            tools:src="@drawable/movie_poster_prot_01" />
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="Choses a Savoir" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="0dp"
+            android:text="03/11/2020" />
     </LinearLayout>
 
     <View

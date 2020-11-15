@@ -2,6 +2,7 @@ package ht.koute.android.fragments
 
 import android.os.Bundle
 import android.view.View
+import android.widget.LinearLayout
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
@@ -9,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
+import ht.koute.android.MainActivity
 import ht.koute.android.R
 import ht.koute.android.adapters.SermonsAdapter
 import ht.koute.android.viewmodels.MainViewModel
@@ -16,7 +18,7 @@ import kotlinx.android.synthetic.main.fragment_sermons.*
 import javax.inject.Inject
 
 /**
- * A placeholder fragment containing a simple view.
+ * A fragment containing a simple view that displays the list of new sermons.
  */
 @AndroidEntryPoint
 class SermonsFragment : Fragment(R.layout.fragment_sermons) {
@@ -30,7 +32,14 @@ class SermonsFragment : Fragment(R.layout.fragment_sermons) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainViewModel = ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
-        requireActivity().findViewById<Toolbar>(R.id.toolbar).isVisible = true
+        requireActivity().findViewById<Toolbar>(R.id.toolbar)?.isVisible = true
+        requireActivity().findViewById<LinearLayout>(R.id.now_playing_layout)?.isVisible = true
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        requireActivity().findViewById<LinearLayout>(R.id.now_playing_layout)?.isVisible = true
     }
 
     private fun initializeObservers() {
